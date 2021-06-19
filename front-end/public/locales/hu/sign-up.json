@@ -1,0 +1,10 @@
+{
+	"username": "Email cím",
+	"password": "Jelszó",
+    "phone": "Telefonszám",
+	"sign-up": "Regisztráció",
+    "passwordCheck":"Jelszó megerősítése",
+    "firstName":"Keresztnév",
+    "lastName":"Vezetéknév",
+    "back": "Vissza"
+}

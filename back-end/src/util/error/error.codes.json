@@ -1,0 +1,112 @@
+{
+  "23503": {
+    "name": "foreign_key_violation",
+    "type": "postgres",
+    "code": "235pg03"
+  },
+  "23505": {
+    "name": "unique_violation",
+    "type": "postgres",
+    "code": "235pg05"
+  },
+  "200au00": {
+    "name": "Wrong credentials",
+    "type": "auth",
+    "code": "200au00"
+  },
+  "404em00": {
+    "name": "EntityNotFound",
+    "type": "typeorm",
+    "code": "404em00"
+  },
+  "406vd00": {
+      "name": "Validation Error",
+      "type": "error",
+      "code": "406vd00"
+  },
+  "400pay00": {
+    "name": "NotEnoughCredit",
+    "type": "payment",
+    "code": "400pay00"
+  },
+  "400pay01": {
+    "name": "PaymentAlreadyReverted",
+    "type": "payment",
+    "code": "400pay01"
+  },
+  "400pay02": {
+    "name": "CannotRevertStorno",
+    "type": "payment",
+    "code": "400pay02"
+  },
+  "404pay00": {
+    "name": "PaymentNotFound",
+    "type": "payment",
+    "code": "404pay00"
+  },
+  "400apo00": {
+    "name": "AppointmentNotPending",
+    "type": "appointment",
+    "code": "400apo00"
+  },
+  "400apo01": {
+    "name": "StatusNotExist",
+    "type": "appointment",
+    "code": "400apo01"
+  },
+  "400apo02": {
+    "name": "OutsideTheOpeningHours",
+    "type": "appointment",
+    "code": "400apo02"
+  },
+  "400apo03": {
+    "name": "TimeWindowBusy",
+    "type": "appointment",
+    "code": "400apo03"
+  },
+  "400apo04": {
+    "name": "InvalidDate",
+    "type": "appointment",
+    "code": "400apo04"
+  },
+  "404apo00": {
+    "name": "AppointmentNotFound",
+    "type": "appointment",
+    "code": "404apo00"
+  },
+  "500gen00": {
+    "name": "InternalServerError",
+    "type": "error",
+    "code": "500gen00"
+  },
+  "409reg00": {
+    "name": "EmailTaken",
+    "type": "registration",
+    "code": "409reg00"
+  },
+  "404use00": {
+    "name": "UserNotFound",
+    "type": "user",
+    "code": "404use00"
+  },
+  "400ope00": {
+    "name": "InvalidDefaultOpeningModification",
+    "type": "opening",
+    "code": "400ope00"
+  },
+  "400ope01": {
+    "name": "CannotDeleteDefaultOpening",
+    "type": "opening",
+    "code": "400ope01"
+  },
+  "400ope02": {
+    "name": "InvalidOpeningRule",
+    "type": "opening",
+    "code": "400ope02"
+  },
+  "400ope03": {
+    "name": "InvalidDate",
+    "type": "opening",
+    "code": "400ope03"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"nav-bar":{
+		"dashboard": "Kezdőlap",
+		"profile": "Profilom",
+		"credit": "Kreditek",
+		"courts": "Pályák",
+		"court-types": "Pálya típusok",
+		"edit-courts": "Pályák szerkesztése",
+		"timesheet": "Nyitvatartás"
+	}
+}

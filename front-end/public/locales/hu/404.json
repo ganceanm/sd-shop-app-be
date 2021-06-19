@@ -1,0 +1,17 @@
+{
+	"not-found": {
+		"title": "Az oldal nem található",
+		"description": "A megnyitott oldal nem található, lépj vissza az irányítópultra.",
+		"action": "Vissza"
+	},
+	"server-error": {
+		"title": "500: Váratlan hiba történt, kérem próbálja meg késöbb!",
+		"description": "A szerveren váratlan hiba törént ezért az oldal átmenetileg nem érhető el, kérem próbálja meg pár perc múlva!",
+		"action": "Vissza"
+	},
+	"unauthorized":{
+		"title": "401: Sajnáljuk, de nem sikerült hitelesíteni.",
+		"description": "Nem sikerült bejelentkeztetni, kérlek navigálj el a bejelentkezés oldalra.",
+		"action": "Bejelentkezés"
+	}
+}

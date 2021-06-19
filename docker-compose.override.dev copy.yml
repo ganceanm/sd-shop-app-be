@@ -1,0 +1,33 @@
+version: '3.7'
+
+services:
+
+  postgres:
+    env_file: 
+      - ./env/postgres.dev.env 
+
+  nest:
+    env_file: 
+      - ./env/nest.dev.env 
+    build:
+      target: development
+    volumes:
+      - ./back-end:/usr/src/app
+      - /usr/src/app/node_modules
+    command: npm run start:debug
+    ports:
+      - 3300:3300
+      - 9929:9929
+  
+  next:
+    env_file: 
+      - ./env/next.dev.env 
+    build:
+      target: development
+    volumes:
+      - ./front-end:/app
+      - /app/node_modules
+      - /app/.next
+    command: sleep infinity
+    ports:
+      - 3000:3000

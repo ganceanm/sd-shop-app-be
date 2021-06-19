@@ -1,0 +1,8 @@
+{
+	"format":{
+		"name": "{{firstName}} {{lastName}}"
+	},
+	"placeholders": {
+		"name": "Felhasználó"
+	}
+}

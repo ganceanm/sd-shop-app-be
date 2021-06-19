@@ -1,0 +1,10 @@
+{
+	"username": "Email address",
+	"password": "Password",
+    "phone": "Phone number",
+	"sign-up": "Sign Up",
+    "passwordCheck":"Confirm password",
+    "firstName":"First Name",
+    "lastName":"Last Name",
+    "back":"Back"
+}

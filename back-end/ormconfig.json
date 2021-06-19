@@ -1,0 +1,22 @@
+
+{
+	"type": "postgres",
+	"host": "172.18.0.2",
+	"port": 5432,
+	"username": "postgres",
+	"password": "postgres",
+	"database": "squash",
+	"entities": [
+    "src/entities/**/*.entity.ts"
+  ],
+  "dropSchema": false,
+  "migrationsTableName": "migrations",
+  "migrations": [
+    "src/migration/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/migration"
+  },
+  "migrationsRun": true,
+  "ssl": false
+}

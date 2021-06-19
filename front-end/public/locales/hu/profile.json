@@ -1,0 +1,9 @@
+{
+	"email": "E-mail cím",
+	"password": "Jelszó",
+	"save": "Mentés",
+	"firstName": "Keresztnév",
+	"lastName":"Vezetéknév",
+	"phone":"Telefonszám",
+	"cancel":"Mégse"
+}

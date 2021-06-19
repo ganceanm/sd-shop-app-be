@@ -1,0 +1,7 @@
+{
+	"form":{
+		"required": "A mező kitöltése kötelező!",
+		"email": "Érvénytelen email cím!"
+	},
+	"200au00": "Helytelen email cím vagy jelszó!"
+}

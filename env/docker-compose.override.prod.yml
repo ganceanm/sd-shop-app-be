@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+
+  postgres:
+    env_file: 
+      - ./env/postgres.prod.env 
+
+  nest:
+    image: "smartitory/squash-nestjs:latest"
+    env_file: 
+      - ./env/nest.prod.env 
+    build:
+      target: production
+    command:  npm run start:prod
+
+  next:
+    env_file: 
+      - ./env/next.prod.env 
+    build:
+      target: production
+    command: node_modules/.bin/next start
