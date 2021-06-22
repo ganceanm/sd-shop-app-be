@@ -1,0 +1,25 @@
+graph TD
+    subgraph NextApp
+        SignInForm --> Redux
+        SignUpForm --> Redux
+        ProfileForm --> Redux
+        NewAppointmentForm --> Redux
+
+        Redux --> TimeSheet
+        Redux --> AppointmentList 
+        Redux --> UserList
+        Redux --> TransactionList
+    end
+    
+    Redux --> RestAPI
+
+    User --> SignInForm
+    User --> SignUpForm
+    User --> ProfileForm
+    User --> NewAppointmentForm
+
+    Admin --> TimeSheet
+    Admin --> AppointmentList 
+    Admin --> UserList
+    Admin --> TransactionList
+    Admin --> NewAppointmentForm

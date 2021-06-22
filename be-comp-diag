@@ -1,0 +1,52 @@
+graph TD
+    subgraph NestApp
+    
+    subgraph auth
+        AuthController --> AuthService
+    end
+
+    subgraph admin
+        AdminController --> AuthorizationServices
+    end
+
+    subgraph appointments
+        AppointmentsController --> AppointmentsService
+    end
+
+    subgraph courts
+        CourtsController --> CourtsService
+    end
+
+    subgraph openings
+        OpeningsController --> OpeningsService
+    end
+
+    subgraph payments
+        PaymentsController--> PaymentsService
+    end
+
+    subgraph users
+        UsersController --> UsersService
+    end
+    end
+    
+    Client --> AuthController
+    Client --> AdminController
+    Client --> AppointmentsController
+    Client --> CourtsController
+    Client --> OpeningsController
+    Client --> PaymentsController
+    Client --> UsersController
+
+    UsersService --> AuthorizationServices
+    
+    AuthService --> AuthorizationServices
+    AuthService --> UsersService
+    
+    PaymentsService --> UsersService
+    
+    CourtsService --> OpeningsService
+
+    AppointmentsService --> UsersService
+    AppointmentsService --> PaymentsService
+    AppointmentsService --> CourtsService
